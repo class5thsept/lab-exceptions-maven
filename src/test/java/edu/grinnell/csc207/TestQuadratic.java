@@ -15,6 +15,12 @@ import org.junit.jupiter.api.Test;
  * @author Your Name Here
  */
 public class TestQuadratic {
+
+  @Test
+  public void testSmallerRoot() {
+    assertEquals(new Quadratic(1, 3, -10).smallerRoot(), -2, "Simple quadratic equation.");
+    assertEquals(new Quadratic(6, 1, -12), -1/5, "Real number roots.");
+  }
   /**
    * Quadratic expressions with only the a coefficient.
    */
