@@ -28,6 +28,18 @@ public class QR {
     BufferedReader eyes = new BufferedReader(new InputStreamReader(System.in));
 
     // ...
+    pen.printf("Hi! I'm here to help you understand quaratic functions.\n");
+    pen.printf("Please enter a (the coefficient of the squared term): ");
+    pen.printf("Please enter b (the coefficient of the linear term) : ");
+    pen.printf("Please enter c (the constant)                       : ");
+
+    // pen.printf("The smaller root of" ++ "x^2 + " ++ "x + "++"is"+.);
+    // pen.printf("Experimentally," ++ "x^2 + " ++ "x + "++"is"+.);
+
+    // STOPPED AT EXERCISE 3 PART a
+
+
+    
 
     eyes.close();
     pen.close();
